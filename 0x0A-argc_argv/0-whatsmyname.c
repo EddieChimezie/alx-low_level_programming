@@ -1,17 +1,15 @@
 #include <stdio.h>
-#include "holberton.h"
 
 /**
- * main - print name of program
- * @argc: argument counter
- * @argv: pointer to array of arguments
- * Return: 0 on success
+ * main - Print the name of the executable file
+ * @argc: Argument count
+ * @argv: Array of argument strings
+ *
+ * Return: 0 for succesful exit
  */
-
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	if (argc > 0)
-		printf("%s\n", argv[0]);
-
+	printf("%s\n", argv[0]);
 	return (0);
 }
+

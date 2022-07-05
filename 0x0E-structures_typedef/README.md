@@ -2,12 +2,15 @@
 > This repository illustrates what structures and typedef are, and when, why, and how to use them.
 
 ### Description of what each file shows:
-0. dog.h - define a new type struct dog with the following elements: name, age, owner.
-1- a function that initializes a variable of type struct dog.
-2- a function that prints a struct dog.
-4- a function that creates a new instance of the struct dog
-5- a function that frees an instance of the struct dog
+File dog.h is a header file containing a new type "struct dog".
 
+File 1-init_dog.c a function that initialize a variable of type struct dog.
+
+File 2-print_dog.c is a function that prints a struct dog.
+
+File 4-new_dog.c is a function that creates a new dog.
+
+File 5-free_dog.c is a function that frees dogs.
 
 Edison Chimezie [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/edthenerd1)
 

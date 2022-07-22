@@ -21,7 +21,7 @@
 
 * File 101-password is a password for the program ./crackme3.
 
-* File holberton.h is the header file containing all the function prototypes of this project.
+* File main.h is the header file containing all the function prototypes of this project.
 
 ### Environment
 * Language: C
